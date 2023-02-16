@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>05testjs.html</title>
+<style>
+    * {font-size: 17pt; }
+</style>    
+<script>
+    function myhap() {
+    var info = '';
+    var kor = 0,eng = 0, hap = 0, avg = 0;
+
+   kor = 90;
+   eng = 85;
+   hap = kor + eng;
+   avg = hap / 2;
+   info = '<h2>총점=' + hap + '평균=' + avg + '</h2>' ;
+   console.log('콘솔 총점 =' , hap);  //F12, 검사 console 탭
+   console.log('콘솔 평균 =' , avg);
+//    document.write('총점 =' , hap , '<br>');
+//    document.write('평점 =' , avg);
+   document.getElementById('display').innerHTML = info ;
+    }
+</script>
+</head>
+<body>
+    <img src="./images/pen2.jpg" alt="" width="300" height="400">
+    <img src="./images/pen2.jpg" alt="" width="300" height="400">
+    <img src="./images/pen2.jpg" alt="" width="300" height="400">
+    <h2>05testjs.html</h2>
+    <button onclick="myhap()"> 버튼myhap함수호출 </button>
+    <div id="display"></div>
+</body>
+</html>

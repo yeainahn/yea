@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>08testkoreng.html</title>
+<style>
+    * {font-size: 17pt; }
+</style>    
+<script>
+    function myhap() {
+    var info = '';
+    var kor = 0,eng = 0, hap = 0, avg = 0;
+    var result ='';
+
+   kor = 70;
+   eng = 69;
+   hap = kor + eng;
+   avg = hap / 2;
+// 평균점수가 70점부터 100점 축합격, 0~69점까지 불합격
+   if(avg>=70){result=('축합격'); }
+   else{ result='재시험';}
+
+   info = '총점=' + hap + '평균=' + avg ;
+   info = info + ' 결과 =' + result ;
+   console.log('콘솔 총점 =' , hap);  //F12, 검사 console 탭
+   console.log('콘솔 평균 =' , avg);
+//    document.write('총점 =' , hap , '<br>');
+//    document.write('평점 =' , avg);
+   document.getElementById('display').innerHTML = info ;
+    }
+</script>
+</head>
+<body>
+    <img src="./images/pen.jpg" alt="" width="300" height="200">
+    <img src="./images/pen.jpg" alt="" width="300" height="200">
+    <img src="./images/pen.jpg" alt="" width="300" height="200">
+    <h2>08testkoreng.html</h2>
+    <button onclick="myhap()"> 버튼myhap함수호출 </button>
+    <div id="display"></div>
+</body>
+</html>

@@ -1,0 +1,650 @@
+영임쌤 컴퓨터  
+ ip주소 192.168.0.157
+ \\192.168.0.157
+
+#--------------------------------------------------------------
+https://www.w3schools.com/
+ 
+Mtest
+ ㄴworkhtml
+   ㄴday0215
+
+178페이지 스타일 진행  2월16일 목요일 진행
+자바스크립트 
+
+<script>
+    var gtitle = '큰제목' ;  전역변수
+    var gnick = '조장님' ;  전역global
+
+  function  myHap() {
+     var info = '' ;  //info=message=msg=data
+     var kor=0, eng=0, hap=0, avg=0 ; 변수초기화
+     kor변수=90;  값대입=값할당=변수값줌assignment할당
+     eng변수=85;  값대입=값할당=변수값줌assignment할당
+ 
+     hap = kor + eng ;  사칙연산중에서 더하기
+     avg = hap / 2 ;  사칙연산중에서 몫나우기
+
+     //주석 console.log('총합계 =' , hap ) ;              오.버=>검사 console탭 
+     //주석 document.write('총합계 =' , hap , '<br>' ) ;  화면출력
+     info = '총점='+hap+' 평균='+avg ;
+     document.getElementById('display').innerHTML = info;
+   }
+</script>
+
+
+
+<button onClick="javascript:myHap();">함수호출</button>
+<button onClick="myHap()">함수호출</button>
+
+<div id="display"></div>
+
+
+
+
+#----------------------------------------------------------------
+#----------------------------------------------------------------
+   ㄴworkboot플젝이름
+     ㄴcss
+       ㄴstyle.css
+     ㄴimages
+     ㄴlogin.html
+     ㄴvideoe.html
+     ㄴjoin.html
+     ㄴpost_list.html
+        ㄴpost_detail.html
+     ㄴpost_form.html 글쓰기폼
+
+
+
+
+
+
+
+
+
+javascript + css 병행
+
+
+	9 + 4 = 13
+	9 - 4 = 5
+	9 * 4 = 36
+	9 / 4 = 2
+	9 % 4 = 1
+
+
+
+다시 cmd
+C:\Users\guro-hi> dir
+C:\Users\guro-hi> cd\
+C:\> cls  
+C:\> cd Mtest
+C:\Mtest> cd worksql
+C:\Mtest\worksql> cd LG
+C:\Mtest\worksql\LG> cls
+C:\Mtest\worksql\LG> dir
+C:\Mtest\worksql\LG> git init
+C:\Mtest\worksql\LG> git remote add  origin  여러분깃주소
+C:\Mtest\worksql\LG> git pull  origin master
+C:\Mtest\worksql\LG> git remote
+  origin출력
+C:\Mtest\worksql\LG> git branch
+  *master출력
+
+
+깃허브사이트에서 삭제및 수정한후 다시 땡겨옴=pull
+C:\Mtest\worksql\LG> git pull  origin master
+
+
+처음에 깃에 올릴때
+C:\Mtest\workhtml\test> git init
+C:\Mtest\workhtml\test> git add  *.* 
+C:\Mtest\workhtml\test> git commit -m "02-14-화요일cookie" 
+C:\Mtest\workhtml\test> git remote add  origin  깃주소
+C:\Mtest\workhtml\test> git remote 
+C:\Mtest\workhtml\test> git branch 
+C:\Mtest\workhtml\test> git push origin  master
+
+
+깃허브사이트에서 삭제및 수정한후 다시 땡겨옴=pull
+C:\Mtest\worksql\LG> git pull  origin master
+
+
+
+css교재진행
+javascript + css 병행
+
+
+#-----------------------------------------------------------
+태그시작 <ol>  종료태그</ol>
+
+자바스크립트
+ 대소문자구별이 있음 310페이지참고
+ 컴퓨터모든언어는 값을 일시적으로 기억하는 공간이름
+ 공간이름=변수=variable=변덕쟁이 
+  // 311페이지참고 주석설명 variable변수=저금통  eng= 89 ; 
+  var  eng = 89 ; 정답
+  eng = 89 ; 정답
+  let  eng = 89 ; 정답정수
+  pi = 3.1415; //실수
+  avg = 78.9 ; //실수
+  grade='B'  ; //하나글자=캐릭터character
+  city="구로구 신림동" ;  //문자열string
+  document.write('안내문' , pi ) ; 내용=<body>태그
+
+
+자바스크립트 dom돔모델=Bom모델 
+ ㄴwindow윈도우 = 본문+툴바+상태바+메뉴바+url주소+스크롤바
+ ㄴdocument문서 = 본문=body
+
+ 대소문자구별이 있음 eng=90 ; Eng사용할때에러
+ 명령어끝에 ; 세미콜론
+
+다시 cmd
+C:\Users\guro-hi> dir
+C:\Users\guro-hi> cd\
+C:\> cd Mtest
+C:\Mtest> cd worksql
+C:\Mtest\worksql> cd mvc
+C:\Mtest\workhtml\mvc> dir
+
+
+
+
+	블록태그 div,h숫자,ol,ul,p
+	인라인태그  img,a,span
+	그룹요소 1.9 div,span
+	폼태그 1.8
+	 <input type=button value=버튼>
+	 <button onclick="game()">버튼</button>
+	인스타일 100페이지
+	 <p  style=magin-left=20px>
+	 <div id=mydiv  class=mydiv_cla>
+	 <span  class=myspan id=mysapn_sp>
+134페이지 
+  #ffffff  ===>힌색  white
+  #000000  ===>검정  black
+  #ff0000  ===>레드  red
+  rgb(255,0,0) 레드red
+  rgba(255,0,0,0) a알파투명도
+  hsla a알파투명도
+
+2.4 문단(paragraph) p태그  엔터2번효과 <p><p><p>
+2.5 배경(background)
+
+
+
+
+
+
+
+
+
+#-----------------------------------------------------------------------
+피자화면 만들기  -  실습시간 
+
+https://startbootstrap.com/
+bootstrap 버튼 사용
+
+교재를 보고 진행
+다음주부터  javascript + css 병행
+
+
+	Server서비스제공(무료,유료)
+	  ㄴmvc2서블릿,spring,django,nodejs
+	Client사용입장(무료,유료)
+          ㄴclient프레임워크(vue,react,angular,svelte)
+          ㄴ자바스크립트기본으로 vue,react,anglar,svelte기술 
+
+자바스크립트패턴  ^시작   $끝
+
+
+윈도우시작  환경
+  시스템 환경 변수 편집 ===>클릭
+  고급탭(3) ===> 환경변수...
+  시스템변수  
+       path선택 편집... 클릭 
+          C:\Program Files\Git\cmd
+
+
+다시 cmd
+C:\Users\guro-hi> dir
+C:\Users\guro-hi> cd\
+C:\> cd Mtest
+C:\Mtest> cd workhtml
+C:\Mtest\workhtml> cd test
+C:\Mtest\workhtml\test> dir
+C:\Mtest\workhtml\test> git --version
+
+C:\Mtest\workhtml\test> git init
+  .git폴더 자동생성 
+
+C:\Mtest\workhtml\test> git  status
+C:\Mtest\workhtml\test> git add aaa.txt
+C:\Mtest\workhtml\test> git add index.html
+C:\Mtest\workhtml\test> git add bbb.gif
+C:\Mtest\workhtml\test> git  status
+C:\Mtest\workhtml\test> git commit -m  "2-8-목요일 2시" 
+
+C:\Mtest\workhtml\test> git config --global user.email  "메일주소"
+C:\Mtest\workhtml\test> git config --global user.name  "young"
+
+C:\Mtest\workhtml\test> git commit -m  "2-8-목요일 2:10" 
+C:\Mtest\workhtml\test> git remote 
+  처음에는 아무런 표시없음
+
+C:\Mtest\workhtml\test> git remote add  origin  https://github.com/posasi2000/snow.git
+C:\Mtest\workhtml\test> git remote 
+  origin출력
+
+C:\Mtest\workhtml\test> git branch 
+  * master
+
+C:\Mtest\workhtml\test> git push origin  master
+
+
+#-----------------------------------------------------------------------------
+C:\Mtest\workhtml\test> git add  *.*
+C:\Mtest\workhtml\test> git commit -m  "2-9-목요일 2:55" 
+C:\Mtest\workhtml\test> git push origin  master
+
+
+#------------------------------------------------------------------------------
+다시 cmd
+C:\Users\guro-hi> dir
+C:\Users\guro-hi> cd\
+C:\> cd Mtest
+C:\Mtest> cd workhtml
+C:\Mtest\workhtml> cd zoom
+C:\Mtest\workhtml\zoom> dir
+C:\Mtest\workhtml\zoom> git --version
+
+C:\Mtest\workhtml\zoom> git init
+  .git폴더 자동생성 
+
+C:\Mtest\workhtml\zoom> git add *.*
+C:\Mtest\workhtml\zoom> git commit -m  "2-9-목요일 3:19" 
+C:\Mtest\workhtml\zoom> git remote 
+  처음에는 아무런 표시없음
+
+C:\Mtest\workhtml\zoom> git remote add  origin  https://github.com/posasi2000/summer.git
+C:\Mtest\workhtml\zoom> git remote 
+  origin출력
+
+C:\Mtest\workhtml\zoom> git branch 
+  * master
+
+C:\Mtest\workhtml\zoom> git push origin  master
+
+C:\Users\guro-hi\Pictures\Saved Pictures
+
+
+#------------------------------------------------------------------------------
+<form action="구글검색/네이버검색" 메소드method="get/post">
+  입력란 메시 입력후 submit버튼을 누르면 
+</form>
+
+https://www.google.com/search?q=messi&oq=messi&
+https://search.naver.com/search.naver?where=nexearch
+
+
+github에 문서올리는 연습
+form태그 피자주문화면작성
+부트스트랩 https://startbootstrap.com/
+교재내용
+
+웹브라우저에서 검색할때 q=query=질의
+검색어 메시  ~~~?asdfa/q=메시~~ &  &
+검색어 메시  ~~~?asdfa/query=메시 & &
+ 제목항목 snow검색  ~~~.jsp?title=snow&page=3&wdate=20230208&
+ 제목항목 snow검색  ~~~.jsp?title=snowpage=3wdate=20230208google=
+ 검색 원하는항목 가격 제조사 
+  ~~~.jsp?item=패드&price=20&company=LG
+
+<form action="구글검색/네이버검색" 메소드method="get/post">
+</form>
+
+
+html태그에서 인용  "아이유"  <q>아이유</q>  <small></small>
+
+https://www.google.com/search?q=messi&oq=messi&aqs=chrome.0.0i67i355i433j46i67i433j0i433i512j0i512l7.4760j0j15&sourceid=chrome&ie=UTF-8
+https://www.google.com/search?q=messi&oq=~chrome&ie=UTF-8
+
+https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=1&ie=utf8&query=%EB%A9%94%EC%8B%9C
+https://search.naver.com/search.naver?where=~&query=%EB%A9%94%EC%8B%9Ca메시
+https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=1&ie=utf8&query=messi
+https://search.naver.com/search.naver?where=~~&ie=utf8&query=messi
+     
+웹브라우저에서 검색할때 q=query=질의
+
+html태그에서 인용  "아이유"  <q>아이유</q> 
+
+
+
+
+https://git-scm.com 
+https://github.com ==>가입하세요 저장고역할 
+
+…or create a new repository on the command line
+echo "# snow" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/posasi2000/snow.git
+git push -u origin main
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/posasi2000/snow.git
+git branch -M main
+git push -u origin main
+
+	https://github.com/posasi2000/database
+	https://github.com/여러분/snow
+	https://github.com/Dahlia-sung
+
+
+
+#----------------------------------------------------------------------------------
+#----------------------------------------------------------------------------------
+https://www.w3schools.com/css/css_form.asp/aspx  ===>닷넷c#
+https://www.shin~~/index.jsp
+https://www.fb~~/re.php
+
+
+https://www.~~~~/css/bc.himedia논리적인이름
+
+
+ 2월8일 수요일
+  ㄴ05testguest.html  <link rel="stylesheet" href="./css/guest.css">
+  ㄴ네이버가입화면
+     03testnaver.html(영임) 본인각자 배웠던 태그 작성
+     02testnaver.html분석
+     01testform.html화면 스타일 
+
+
+03testnaver.html(영임)   각자 네이버및 다른사이트 가입화면 작성 
+https://git-scm.com 접속후 64download~~~
+https://github.com/
+
+
+#------------------------------------------------------------------------
+  ㄴgit가입 소스 올리기
+  ㄴ자바스크립트 시작
+  ㄴ피자화면 50페이지 
+  ㄴ교재내용확인 
+
+	https://git-scm.com
+	https://github.com/
+	https://startbootstrap.com/
+	https://jquery.com
+   
+
+    상품정보  	   	          mypage
+     mycoffee.html                  위치지도=searchmap.html	
+     myproduct.html                 About=about.html
+
+
+
+ ppt문서 27페이지 ~ 57페이지
+ form태그 
+ ruby태그 윗첨자비슷 
+
+ https://www.w3schools.com/
+ git깃허브
+ 
+ 
+ index 갤러리  게시판 멀티미디어    상품정보       	          mypage
+                                mycoffee.html               위치지도=searchmap.html	
+		                myproduct.html              About=about.html
+
+#-----------------------------------------------------------------------------------
+  
+
+div태그, span태그
+  a태그
+  iframe태그
+  화면입력 form태그
+  부트스트랩 
+
+ <html>  
+  <head> 제목 style script </head>  
+  <body> 
+    보여주는 영역 
+    <iframe src=food.html알맹이> </iframe>
+    <a href=food.html알맹이> 요기요포장 </a> 
+  </body> 
+</html>
+ 
+  자바스크립트 안함 
+
+page27.html
+pageselect.html
+
+page28.html
+pagetextarea.html
+  
+	~~~.jsp문서는 자바java언어기반
+	~~~.asp문서는 MS사의 C# 닷넷
+	~~~.php문서는 리눅스기반 스크립트언어 기반
+	~~~.py문서는 파이썬기반 웹서버페이지 Django/Flask
+
+<form  action="#" method메소드="get기본입니다url선택항목정보가보임">  
+  입력란,체크,라이오,textarea,select
+</form>
+
+Web웹문서의 기본은  html태그 
+Web웹문서에서 스크립트=코드 (연산,배열,함수) 자바스크립트구현기술
+
+<script>
+ function mycheck(){
+    var dtitle = document.myform.title.value;
+    if (dtitle=="" || dtitle==null){
+         alert("제목이 공백입니다 ");
+    }
+ }
+</script>
+
+
+
+
+
+
+
+#-------------------------------------------------------------
+참고사이트
+https://developer.mozilla.org/ko/docs/Web/CSS/border-collapse
+
+더미텍스트문자 로렌이쉽
+https://www.lipsum.com/
+
+  a태그는 라인개행X  (라인개행x img font b )
+  a태그는 밑줄생성 (그래서 스타일 :hover속성 적용)
+  <anchor http+reference="사이트,문서,이름,메일"> 카카오 </a>
+  <a href="사이트,문서,이름,메일"> 카카오 </a>
+
+  <style> a{ u제거;컬러;글꼴}  a:hover{u;컬러;글꼴} </style>
+
+  <a href="www.daum.net"> 카카오 </a>
+  <a href="http://www.daum.net"  target="_blank"> 카카오 </a>
+  <a href="gallery.html"> gallery98%문서 </a>
+  <a href="mailto:abc@엘쥐.com"> 관리자메일 </a>
+  <a href="#top"> Top처음위치 </a>
+
+  뉴스,쇼핑에서 상단에서  <a name=top>  </a>
+
+  통신규약 protocol
+  ㄴ tcp/ip
+  ㄴ http  <a href="http://www.naver.com">네이버</a>
+  ㄴ ftp
+  ㄴ smtp/pop3
+  ㄴ DHCP
+  ㄴ udp
+
+  https://helloworld-88.tistory.com/146
+
+#----------------------------------------------------------------------------------------
+ 스타일에서 접근할때 
+  <style>
+    #island{ color:red; }     
+    .fruit{ font-weight:bold; }
+    ol#country{ }  
+    hr{color:gray; margin-left:5px;} 
+    #my_hr1{color:gray; margin-left:5px;} 
+    div{ color:blue; }
+    span{ margin-top:5px; }
+  </style> 
+
+<html>
+ <body>
+   <hr style="color:gray; margin-left:5px;"> </hr>
+   <hr id="my_hr1"> </hr>
+   <ol id="country"> </ol>
+   <div  id="island"> </div>
+   <div  class="fruit"> </div>
+   <span id="island"> </div>
+   <span class="fruit"> </div>
+   <hr id="my_hr1"> </hr>
+ </body>
+</html>
+
+
+  <style>
+    #island{ color:red; }     
+    .fruit{ font-weight:bold; }
+    ol#country{ }  
+    hr{color:gray; margin-left:5px;} 
+    #my_hr1{color:gray; margin-left:5px;} 
+    div{ color:blue; }
+    span{ margin-top:5px; }
+  </style> 
+
+Mtest
+ ㄴworkhtml
+   ㄴimages폴더 복붙
+   ㄴday0130  
+   ㄴday0131
+   ㄴday0201
+   ㄴday0202
+
+
+  스타일 id/class
+    
+
+  <ins> <u>
+  <del> <strike>
+
+ https://www.w3schools.com/
+ 
+ 스타일에서 접근할때 
+  <style>
+    #island{color:red;}
+  </style> 
+  <ul id="island">
+
+
+
+
+
+#--------------------------------------------------
+태그=tag
+ 자동엔터기능 <h1> </h1>  <br></br> <p></p>  <hr> <ol> <ul>
+ 엔터지원안됨 <img src>,  <font size=7>
+ 글꼴변화 <b>짙하게</b>  <u>밑줄</u> <i>이태릭체</i>
+
+순서있음  order List = ol     숫자번호 a/A/a/i/I
+순서없음  unorder List = ul  disc●  ○circle □square
+
+ 여의도 안면도 죽도   독도    울릉도  선유도  샤랑도 
+ 제주도 강화도 대부도  나로도  백령도  월미도  
+
+ 09testol.html
+ 10testul.html
+ 11testolul.html    ===>여러분관심 5개이상
+ 12testolul영임.html ===>여러분관심 5개이상
+ 13testolul.html    ===>12페이지작성
+ 14testdd.html
+  
+
+DL=definition List정의목록
+DT=definition Term정의용어
+DD=definition description정의설명
+
+  <ins> <u>
+  <del> <strike>
+
+   <ins> 아마존 cherry </ins> <p></p>
+   <del> 아마존 cherry </del> <p></p>
+   <strike>  아마존 cherry </strike> <p></p>
+   <u> 아마존 cherry </u>
+
+
+vscode 다운로드 입력
+https://code.visualstudio.com/download
+
+VScode설치후
+ ㄴFile메뉴 auto save체크 처음한번만설정
+ ㄴ5번째 확장아이콘 live server설치 처음한번만설치
+ ㄴFile메뉴 Open folder선택 작업폴더 day0130 
+
+웹브라우저
+ ㄴ통신규약 http
+   통신프로토콜 tcp/ip, ftp, smtp, udp
+ ㄴ웹브라우저 인식하는 언어 html = hyper text mark-up language
+ ㄴhtml태그규칙
+   ㄴ대소문자구별없음 < >태그=tag/ 쌍태그<h2>안내문 </h2>  홀태그<br><p>
+   ㄴ줄단위 문장마지막 세미콜론없음; 
+<html> 
+ <head> <title> </title> </head> 
+ <body>  
+   <h숫자>안내문 </h숫자> 
+   <img src='폴더/파일'>   
+ </body> 
+</html>   
+
+
+
+
+
+
+
+
+
+
+
+
+
+#-----------------------------------------------------
+윈도우시작클릭후    cmd
+C:\Users\guro-hi> ipconfig
+   192.168.0.157
+   192.168.0.XXX
+C:\Users\guro-hi> cls
+C:\Users\guro-hi> dir
+C:\Users\guro-hi> cls
+C:\Users\guro-hi> cd \
+C:\> ipconfig
+C:\> exit
+
+
+윈도우시작클릭
+\\192.168.0.157
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

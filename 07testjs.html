@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>06testjs.html</title>
+<style>
+    * {font-size: 18pt ; }
+</style>    
+</head>
+<script>
+    function myemp() {
+        var info = ' ';
+        var  
+        nick= 'yeanee'; 
+        age= 31; 
+        city = 'Seoul' ;
+        secr= city + age;
+        info = '<h2>닉네임=' + nick + '이름은 비밀이야=' + secr + '</h2>' ;
+        document.getElementById('display').innerHTML = info ;
+        }
+        function mystar() {
+            var info = ' ';
+            star1='🍟<br>';
+            star2='🍟🍟<br>';
+            star3='🍟🍟🍟<br>';
+            star4='🍟🍟🍟🍟<br>';
+            star5='🍟🍟🍟🍟🍟<br>';
+            info = star1 + star2 +star3 +star4 +star5;
+         document.getElementById('display').innerHTML = info ; }
+         
+         function mytree() {
+         var flower = '💕<br>💕💕<br>💕💕💕<br>💕💕💕💕<br>💕💕💕💕💕'
+         document.getElementById('last').innerHTML = flower
+         document.getElementById('display').innerHTML = info ; 
+        }
+
+        function mynumber(){
+            var su = 0 ;
+            var info = ' ';
+            su1= su + 1;
+            su2= su + 2;
+            su3= su + 3;
+            su4= su + 4;
+            su5= su + 5;
+            info = '&nbsp;' + su1+su2+su3+su4+su5;
+            
+            document.getElementById('best').innerHTML = info ; 
+
+        }
+</script>
+<body>
+    
+    <h2>06testjs.html</h2>
+    <img src="images/corgi.jpg" alt="" width="200" height="200">
+    <img src="images/corgi.jpg" alt="" width="200" height="200">
+    <img src="images/corgi.jpg" alt="" width="200" height="200">
+    <p></p>
+    <button onclick="myemp()"> 버튼myemp </button>
+    <button onclick="mystar()"> 버튼mysar</button>
+    <button onclick="mytree()"> 버튼mytree</button>
+    <button onclick="mynumber()"> 버튼mynumber</button>
+
+    <div id="display"></div>
+    
+    <div id="last"></div>
+    <div id="best"></div>
+</body>
+</html>

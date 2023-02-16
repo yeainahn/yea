@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko"> 
+<head>
+<meta charset="utf-8">
+<title>02testnth.html</title> 
+<style type="text/css">
+    ul { 
+        padding-bottom: 30px;
+        background-image: url(img/bg_linepttn.png);
+        background-repeat: repeat-x;
+        background-position: bottom;
+    }
+    li { 
+        list-style: none;
+        padding: 0 20px;
+        background-image: url(img/bg_bullet.png);
+        background-repeat: no-repeat;
+        background-position: 0 50%;
+    }
+    ul:nth-child(3) li{ 
+        padding: 10px 30px;
+        background-image: url(img/bg_ar.png);
+        background-repeat:  no-repeat;    }
+
+    .my li:nth-child(-n+5) {
+        padding: 10px 30px;
+        background-image: url(img/bg_ar.png);
+        background-repeat:  no-repeat;
+    } 
+
+</style>
+</head> 
+<body>
+    <h3>귀여워서 미안해</h3>
+    <ul class="my">
+        <li>초록색</li>
+        <li>보라색</li>
+        <li>파란색</li>
+        <li>aaaa</li>
+        <li>ssss</li>
+    </ul>
+    <ul>
+        <li>망고</li>
+        <li>파파야</li>
+        <li>구아바</li>
+    </ul>
+</body> 
+</html>
